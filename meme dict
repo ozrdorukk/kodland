@@ -1,0 +1,16 @@
+meme_dict = {
+    "CRINGE": "Garip ya da utandırıcı bir şey",
+    "LOL": "Komik bir şeye verilen cevap",
+    "GG": "Oyun sonları kullanılır",
+    "CREEPY": "Korkunç",
+    "AGGRO": "Sinirlenmek"
+}
+
+word = input("Anlamadığınız bir kelime yazın (hepsini büyük harflerle yazın!): ")
+
+if word in meme_dict:
+    # Kelime eşleşiyorsa, anlamını yazdıralım
+    print(meme_dict[word])
+else:
+    # Kelime eşleşmiyorsa, kullanıcıya bilmediğini bildirelim
+    print("Bu kelimenin anlamını bilmiyorum.")
